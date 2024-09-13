@@ -1,0 +1,138 @@
+html{
+    box-sizing: border-box;
+    width: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/weather-bg/bg-storm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+li{
+    margin: 0;
+}
+button{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.list {
+    list-style: none;
+}
+.header {
+    display: flex;
+    height: 45px;
+    margin-top: 31px;
+    margin-left: 39px;
+    margin-right: 39px;
+    text-align: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 60px;
+    height: 31px;
+}
+.input-location{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff ;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 45px;
+    width: 280px;
+}
+.input-location ::placeholder{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.search-btn {
+    background-color: transparent;
+    border: none;
+    height: 45px;
+    width: 45px;
+}
+.main-info {
+    display: flex;
+    text-align: center;
+    height: 141px;
+    margin-top: 210px;
+    margin-left: 39px;
+    margin-bottom: 44px;
+    justify-content: center;
+}
+.temp-info {
+    color: #FFFFFF;
+    font-size: 120px;
+    margin-right: 10px;
+}
+.city-info {
+    color: #FFFFFF;
+    font-size: 48px;
+    line-height: 4;
+    margin-right: 40px;
+}
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.details-title {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.type-weather {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+.weather-information {
+    width: 354px ;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px ;
+}
+.w-info-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+.w-info-cards p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.w-info-cards img {
+    margin-left: 26px;
+}
+.w-info-cont {
+    display: flex;
+}

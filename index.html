@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <header class="header">
+            <a href="/"><img src="./images/logo.svg" alt="" class="logo"></a>
+            <div>
+                <input type="text" placeholder="Search Location..." class="input-location">
+                <button type="button" class="search-btn"><img src="/images/search.svg" alt=""></button>
+            </div>
+    </header>
+        <div class="main-info">
+        <p class="temp-info">16°</p>
+        <p class="city-info">City</p>
+        <img src="./images/Cloudy.svg" alt="" class="weather-icon">
+    </div>
+    <div class="weather-details">
+        <h1 class="details-title">Weather Details...</h1>
+        <h2 class="type-weather">thunderstorm with light drizzle</h2>
+        <ul class="weather-information">
+            <li class="w-info-cards">
+                <p>Temp max</p>
+                <div class="w-info-cont">
+                    <p class="max-temp"></p>
+                    <img src="./images/max-temp.svg" alt="">
+                </div>
+            </li>
+            </li>
+            <li class="w-info-cards">
+                <p>Humadity</p>
+                <div class="w-info-cont">
+                    <p class="humadity-text"></p>
+                    <img src="./images/humadity.svg" alt="">
+                </div>
+            </li>
+            <li class="w-info-cards">
+                <p>Cloudy</p>
+                <div class="w-info-cont">
+                    <p class="cloudy-text"></p>
+                    <img src="./images/cloudy-icon.svg" alt="">
+                </div>
+            </li>
+            <li class="w-info-cards">
+                <p>Wind</p>
+                <div class="w-info-cont">
+                    <p class="wind-text"></p>
+                <img src="./images/wind.svg" alt="">
+            </div>
+            </li>
+        </ul>
+    </div>
+    <script src="/js/scripts.js" type="module"></script>
+</body>
+</html>
