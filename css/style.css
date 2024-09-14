@@ -136,3 +136,10 @@ img{
 .w-info-cont {
     display: flex;
 }
+.weather-container {
+    width: 100%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(10px);
+}
